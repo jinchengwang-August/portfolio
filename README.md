@@ -27,6 +27,10 @@ The visual system uses paper white, ink black, and vermilion red, pairing editor
 - Use arrow keys, Page Up, Page Down, or Space
 - Select chapter markers for direct navigation
 - Move the pointer to reveal subtle ink traces and typographic reactions
+- Switch between a cultural archive and a light, living technology interface
+- Pluck six playable guitar strings in archive mode
+- Drag historical newspaper clippings around the composition
+- Explore animated code, equations, signal graphics, and a research pipeline
 - Respects the operating system's reduced-motion preference
 
 ## Technical approach
