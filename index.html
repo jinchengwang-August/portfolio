@@ -66,6 +66,8 @@ nav{height:0;border:0;background:transparent;backdrop-filter:none;padding:0;disp
 @media(max-width:760px){.studio .s0{padding:72px 18px 50px}.studio .heroType h1{font-size:26vw}.studio .intro{position:relative;right:auto;bottom:auto;width:auto;align-self:end}.studio .intro h2{font-size:25px}.studio .head{grid-template-columns:45px 1fr}.studio .chapter{padding:74px 30px 50px 14px}.studio .xp,.studio .card,.studio .hobby,.studio .skill{border-radius:14px}.studio .era-label{display:none}}
 /* Studio-only chapter transition: two scenes overlap on one calm visual plane. */
 .studio .wipe,.studio .mode-flash{display:none!important}.studio .scene{transform:translateY(2vh) scale(.99);filter:blur(5px);transition:opacity .78s cubic-bezier(.2,.8,.2,1),transform .9s cubic-bezier(.2,.8,.2,1),filter .7s cubic-bezier(.2,.8,.2,1)}.studio .scene.active{transform:translateY(0) scale(1);filter:blur(0)}.studio .scene.leaving{transform:translateY(-1.5vh) scale(1.005);filter:blur(3px)}
+/* Keep the lower bowl and descender of the g in Wang inside its own line box. */
+.studio .s0 .heroType h1{line-height:1;overflow:visible}.studio .s0 .heroType .outline{padding-bottom:.18em;overflow:visible}
 </style>
 </head>
 <body class="archive">
